@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/alarm_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Alarm!"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/alarm_screen_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alarm_screen_button"
+        android:layout_below="@+id/alarm_screen_title"
+        android:layout_marginTop="28dp"
+        android:text="00 : 00"
+        android:textSize="52dp" />
+
+    <TextView
+        android:id="@+id/alarm_screen_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alarm_screen_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Alarm name" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Alarmı kapatmak için aşağıdaki sorunun cevabını giriniz!" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/alarm_screen_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/alarm_screen_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="Dismiss"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="((124/4)+3*19-8*2+7))=?" />
+
+</RelativeLayout>
