@@ -1,4 +1,4 @@
-package com.trigg.alarmclock;
+package com.smart.alarmclock;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;

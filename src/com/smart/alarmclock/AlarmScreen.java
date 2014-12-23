@@ -1,4 +1,4 @@
-package com.trigg.alarmclock;
+package com.smart.alarmclock;
 
 import android.app.Activity;
 import android.content.Context;
@@ -52,7 +52,7 @@ public class AlarmScreen extends Activity {
 			public void onClick(View view) {
 				EditText text = (EditText)findViewById(R.id.editText1);
 				String value = text.getText().toString();
-				if(value.equals("69")){
+				if(value.equals("79")){
 				mPlayer.stop();
 				finish();
 				}

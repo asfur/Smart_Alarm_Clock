@@ -1,4 +1,4 @@
-package com.trigg.alarmclock;
+package com.smart.alarmclock;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.net.Uri;
 
-import com.trigg.alarmclock.AlarmContract.Alarm;
+import com.smart.alarmclock.AlarmContract.Alarm;
 
 public class AlarmDBHelper extends SQLiteOpenHelper {
 

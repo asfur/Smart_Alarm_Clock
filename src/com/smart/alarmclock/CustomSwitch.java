@@ -1,4 +1,4 @@
-package com.trigg.alarmclock;
+package com.smart.alarmclock;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
